@@ -1,17 +1,17 @@
 package com.techreturners.cats;
 
-
 public abstract class Abstract implements Cat {
+
     private boolean sleeping;
     private int averageHeight;
     private String setting;
     private String eatNoise;
     
-    public Abstract(String eatNoise,int averageHeight, String setting){
+public Abstract(String eatNoise,int averageHeight, String setting){
     this.eatNoise = eatNoise;
     this.averageHeight =averageHeight;
     this.setting = setting;
-    }
+}
     
     public boolean isAsleep() { return this.sleeping;}
     
@@ -25,4 +25,4 @@ public abstract class Abstract implements Cat {
     
     public String eat() { return this.eatNoise;}
     
-    }
+}
