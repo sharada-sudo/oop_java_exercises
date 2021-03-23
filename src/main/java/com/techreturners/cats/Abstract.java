@@ -7,11 +7,11 @@ public abstract class Abstract implements Cat {
     private String setting;
     private String eatNoise;
     
-public Abstract(String eatNoise,int averageHeight, String setting){
-    this.eatNoise = eatNoise;
-    this.averageHeight =averageHeight;
-    this.setting = setting;
-}
+    public Abstract(String eatNoise,int averageHeight, String setting){
+        this.eatNoise = eatNoise;
+        this.averageHeight =averageHeight;
+        this.setting = setting;
+    }
     
     public boolean isAsleep() { return this.sleeping;}
     
