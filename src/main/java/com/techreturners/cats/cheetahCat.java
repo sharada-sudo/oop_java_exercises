@@ -1,6 +1,6 @@
 package com.techreturners.cats;
 
-public class cheetahCat extends Abstract  {
+public class CheetahCat extends Abstract  {
 
-    public cheetahCat() { super("Zzzzzzz", 500, "wild");}
+    public CheetahCat() { super("Zzzzzzz", 500, "wild");}
 }

@@ -54,7 +54,7 @@ public class CatTest {
 
     @Test
     public void feedTheCheetah() {
-        Cat cheetahCat = new cheetahCat();
+        Cat cheetahCat = new CheetahCat();
         assertEquals("Zzzzzzz", cheetahCat.eat());
     }
 
